@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HotelValuedAvailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages HotelValuedAvailRS.xsd" timeToExpiration="1799990" totalItems="50" echoToken="DummyEchoToken">
+  <AuditData>
+    <ProcessTime>133</ProcessTime>
+    <Timestamp>2015-03-12 10:41:35.475</Timestamp>
+    <RequestHost>62.233.96.91</RequestHost>
+    <ServerName>LIVE</ServerName>
+    <ServerId>58</ServerId>
+    <SchemaRelease>2005/06</SchemaRelease>
+    <HydraCoreRelease>2015.02.10</HydraCoreRelease>
+    <HydraEnumerationsRelease>#1#</HydraEnumerationsRelease>
+    <MerlinRelease>26</MerlinRelease>
+  </AuditData>
+  <PaginationData currentPage="1" totalPages="1" />
+  <ServiceHotel xsi:type="ServiceHotel" availToken="2mbH2dRYE1K8+F5vLZYqTgal">
+    <DirectPayment>N</DirectPayment>
+    <ContractList>
+      <Contract>
+        <Name>ID_B2B_21#D2</Name>
+        <IncomingOffice code="258" />
+        <Classification code="NOR">Online Price</Classification>
+      </Contract>
+    </ContractList>
+    <DateFrom date="20150411" />
+    <DateTo date="20150412" />
+    <Currency code="USD">US Dollar</Currency>
+    <PackageRate>N</PackageRate>
+    <TravelAgent>N</TravelAgent>
+    <HotelInfo xsi:type="ProductHotel">
+      <Code>47859</Code>
+      <Name>Best Western Manibu Recife</Name>
+      <Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+      <Destination type="SIMPLE" code="RCF">
+        <Name>Recife</Name>
+        <ZoneList>
+          <Zone type="SIMPLE" code="1" />
+        </ZoneList>
+      </Destination>
+      <ChildAge ageFrom="0" ageTo="0" />
+    </HotelInfo>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="uRZWzYZsl2C7Rn6jcTgQdA==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="2S">DOUBLE 2 SINGLE BEDS</RoomType>
+        <Price>
+          <Amount>75.450</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="pOlmaUr4wjaperXgvuiPvg==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="KG">DOUBLE KING SIZE BED</RoomType>
+        <Price>
+          <Amount>75.450</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="n2Ou7Y7t66DD7/237xgyjA==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="TPL-MX1" characteristic="2S-DX">TRIPLE 2 SINGLE BEDS-DELUXE</RoomType>
+        <Price>
+          <Amount>83.190</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="DuvI6swcN/8P1Vjb+PzuJQ==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="FAM-MX1" characteristic="2C-DX">FAMILY ROOM TWINS-DELUXE</RoomType>
+        <Price>
+          <Amount>83.190</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+  </ServiceHotel>
+  <ServiceHotel xsi:type="ServiceHotel" availToken="2mbH2dRYE1K8+F5vLZYqTgal">
+    <DirectPayment>N</DirectPayment>
+    <ContractList>
+      <Contract>
+        <Name>ID_B2B_21#Z9</Name>
+        <IncomingOffice code="258" />
+        <Classification code="NOR">Online Price</Classification>
+      </Contract>
+    </ContractList>
+    <DateFrom date="20150411" />
+    <DateTo date="20150412" />
+    <Currency code="USD">US Dollar</Currency>
+    <PackageRate>N</PackageRate>
+    <TravelAgent>N</TravelAgent>
+    <HotelInfo xsi:type="ProductHotel">
+      <Code>47859</Code>
+      <Name>Best Western Manibu Recife</Name>
+      <Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+      <Destination type="SIMPLE" code="RCF">
+        <Name>Recife</Name>
+        <ZoneList>
+          <Zone type="SIMPLE" code="1" />
+        </ZoneList>
+      </Destination>
+      <ChildAge ageFrom="0" ageTo="0" />
+    </HotelInfo>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="pOlmaUr4wjaperXgvuiPvg==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="KG">DOUBLE KING SIZE BED</RoomType>
+        <Price>
+          <Amount>87.060</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="uRZWzYZsl2C7Rn6jcTgQdA==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="2S">DOUBLE 2 SINGLE BEDS</RoomType>
+        <Price>
+          <Amount>87.060</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="DuvI6swcN/8P1Vjb+PzuJQ==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="FAM-MX1" characteristic="2C-DX">FAMILY ROOM TWINS-DELUXE</RoomType>
+        <Price>
+          <Amount>95.980</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="n2Ou7Y7t66DD7/237xgyjA==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="TPL-MX1" characteristic="2S-DX">TRIPLE 2 SINGLE BEDS-DELUXE</RoomType>
+        <Price>
+          <Amount>95.980</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+  </ServiceHotel>
+  <ServiceHotel xsi:type="ServiceHotel" availToken="2mbH2dRYE1K8+F5vLZYqTgal">
+    <DirectPayment>N</DirectPayment>
+    <ContractList>
+      <Contract>
+        <Name>ID_B2B_21#X2</Name>
+        <IncomingOffice code="258" />
+        <Classification code="NOR">Online Price</Classification>
+      </Contract>
+    </ContractList>
+    <DateFrom date="20150411" />
+    <DateTo date="20150412" />
+    <Currency code="USD">US Dollar</Currency>
+    <PackageRate>N</PackageRate>
+    <TravelAgent>N</TravelAgent>
+    <HotelInfo xsi:type="ProductHotel">
+      <Code>47859</Code>
+      <Name>Best Western Manibu Recife</Name>
+      <Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+      <Destination type="SIMPLE" code="RCF">
+        <Name>Recife</Name>
+        <ZoneList>
+          <Zone type="SIMPLE" code="1" />
+        </ZoneList>
+      </Destination>
+      <ChildAge ageFrom="0" ageTo="0" />
+    </HotelInfo>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="pOlmaUr4wjaperXgvuiPvg==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="KG">DOUBLE KING SIZE BED</RoomType>
+        <Price>
+          <Amount>92.860</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="uRZWzYZsl2C7Rn6jcTgQdA==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="2S">DOUBLE 2 SINGLE BEDS</RoomType>
+        <Price>
+          <Amount>92.860</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="DuvI6swcN/8P1Vjb+PzuJQ==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="FAM-MX1" characteristic="2C-DX">FAMILY ROOM TWINS-DELUXE</RoomType>
+        <Price>
+          <Amount>102.380</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="n2Ou7Y7t66DD7/237xgyjA==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+        <RoomType type="SIMPLE" code="TPL-MX1" characteristic="2S-DX">TRIPLE 2 SINGLE BEDS-DELUXE</RoomType>
+        <Price>
+          <Amount>102.380</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+  </ServiceHotel>
+  <ServiceHotel xsi:type="ServiceHotel" availToken="2mbH2dRYE1K8+F5vLZYqTgal">
+    <DirectPayment>N</DirectPayment>
+    <ContractList>
+      <Contract>
+        <Name>ID_B2B_32#USD2</Name>
+        <IncomingOffice code="258" />
+        <Classification code="NOR">Online Price</Classification>
+      </Contract>
+    </ContractList>
+    <DateFrom date="20150411" />
+    <DateTo date="20150412" />
+    <Currency code="USD">US Dollar</Currency>
+    <PackageRate>N</PackageRate>
+    <TravelAgent>N</TravelAgent>
+    <HotelInfo xsi:type="ProductHotel">
+      <Code>49659</Code>
+      <Name>Atlante Plaza</Name>
+      <Category type="SIMPLE" code="5EST" shortname="5*">5 STARS</Category>
+      <Destination type="SIMPLE" code="RCF">
+        <Name>Recife</Name>
+        <ZoneList>
+          <Zone type="SIMPLE" code="1" />
+        </ZoneList>
+      </Destination>
+      <ChildAge ageFrom="0" ageTo="0" />
+    </HotelInfo>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="KLV8CK2qPyC7lDpyiMZE2Q==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="BB-MX1" shortname="BB">BED AND BREAKFAST</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+        <Price>
+          <Amount>119.890</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="6wnQpwZhGGM5QAzbyno4hw==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="BB-MX1" shortname="BB">BED AND BREAKFAST</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="SU">DOUBLE SUPERIOR</RoomType>
+        <Price>
+          <Amount>127.620</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="mu0SbPptOLEqp5wrN4+CCQ==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="BB-MX1" shortname="BB">BED AND BREAKFAST</Board>
+        <RoomType type="SIMPLE" code="DBL-MX1" characteristic="EJ">DOUBLE EXECUTIVE</RoomType>
+        <Price>
+          <Amount>145.230</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+    <AvailableRoom>
+      <HotelOccupancy>
+        <RoomCount>1</RoomCount>
+        <Occupancy>
+          <AdultCount>2</AdultCount>
+          <ChildCount>0</ChildCount>
+        </Occupancy>
+      </HotelOccupancy>
+      <HotelRoom SHRUI="ZrSrsSDa9m90dlD3nVWN5A==" availCount="99" onRequest="N">
+        <Board type="SIMPLE" code="BB-MX1" shortname="BB">BED AND BREAKFAST</Board>
+        <RoomType type="SIMPLE" code="SUI-MX1" characteristic="SP">SUITE SPECIAL</RoomType>
+        <Price>
+          <Amount>193.130</Amount>
+        </Price>
+      </HotelRoom>
+    </AvailableRoom>
+  </ServiceHotel>
+
+</HotelValuedAvailRS>
