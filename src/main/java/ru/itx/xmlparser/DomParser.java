@@ -1,6 +1,7 @@
 package ru.itx.xmlparser;
 
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,12 +37,12 @@ public class DomParser implements CommonParser {
 	}
 
 	@Override
-	public void parse(InputStream input) throws Exception {
+	public void parse(InputStream input, OutputStream out) throws Exception {
 		
 		DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 		Document root = builder.parse(input);		
 		
-		JsonGenerator json = jsonFactory.createGenerator(System.out).writeStartObject().writeStartArray("Hotels");
+		JsonGenerator json = jsonFactory.createGenerator(out).writeStartObject().writeStartArray("Hotels");
 		
 		NodeList hotels = root.getElementsByTagName("ServiceHotel");
 		for (int i = 0; i < hotels.getLength(); i++) {
