@@ -17,5 +17,6 @@ repositories {
 }
 
 dependencies {
-	compile 'org.codehaus.groovy:groovy-all:2.3.6'
+	compile 'org.glassfish:javax.json:1.+'
+	compile 'org.codehaus.groovy:groovy-all:2.+'
 }

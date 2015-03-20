@@ -1,5 +1,6 @@
 package ru.itx.xmlparser
 
+import groovy.json.JsonOutput
 import java.io.InputStream
 
 class GroovyParser implements CommonParser {
@@ -7,16 +8,19 @@ class GroovyParser implements CommonParser {
 	@Override
 	public void parse(InputStream input) throws Exception {
 		
-		def xml = new XmlSlurper().parse(input)
-		xml.ServiceHotel.each {
+		def reader = new XmlSlurper().parse(input)
+		def hotels = []
+		
+		reader.ServiceHotel.each {
 			def currency = it.Currency.@code
-			println it.HotelInfo.Name
+			def hotel = [Name:it.HotelInfo.Name.text(),Rooms:[]]
 			it.AvailableRoom.each {
-				def roomType = it.HotelRoom.RoomType
-				def roomPrice = it.HotelRoom.Price.Amount
-				println "\t${roomType} -> ${roomPrice} ${currency}"
+				hotel.Rooms << [Name:it.HotelRoom.RoomType.text(),Price:it.HotelRoom.Price.Amount.text()+' '+currency]
 			}
+			hotels << hotel
 		}
+		
+		println JsonOutput.prettyPrint(JsonOutput.toJson([Hotels:hotels]))
 	}
 
 }
