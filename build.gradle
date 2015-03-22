@@ -19,4 +19,5 @@ repositories {
 dependencies {
 	compile 'org.glassfish:javax.json:1.+'
 	compile 'org.codehaus.groovy:groovy-all:2.+'
+	compile 'org.apache.ws.commons.axiom:axiom-impl:1.+'	
 }

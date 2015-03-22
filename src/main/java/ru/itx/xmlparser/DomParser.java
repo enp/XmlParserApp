@@ -20,16 +20,16 @@ import org.w3c.dom.NodeList;
 
 public class DomParser implements CommonParser {
 
-	XPathFactory factory = XPathFactory.newInstance();
+	private XPathFactory factory = XPathFactory.newInstance();
 	
-	XPathExpression hotelName		= factory.newXPath().compile("./HotelInfo/Name");
-	XPathExpression hotelCurrency	= factory.newXPath().compile("./Currency/@code");
+	private XPathExpression hotelName		= factory.newXPath().compile("./HotelInfo/Name");
+	private XPathExpression hotelCurrency	= factory.newXPath().compile("./Currency/@code");
 	
-	XPathExpression roomType		= factory.newXPath().compile("./HotelRoom/RoomType");
-	XPathExpression roomPrice		= factory.newXPath().compile("./HotelRoom/Price/Amount");
+	private XPathExpression roomType		= factory.newXPath().compile("./HotelRoom/RoomType");
+	private XPathExpression roomPrice		= factory.newXPath().compile("./HotelRoom/Price/Amount");
 	
-	Map<String,Boolean> jsonConfig = new HashMap<String,Boolean>();
-	JsonGeneratorFactory jsonFactory;
+	private Map<String,Boolean> jsonConfig = new HashMap<String,Boolean>();
+	private JsonGeneratorFactory jsonFactory;
 	
 	public DomParser()  throws Exception {
 		jsonConfig.put(JsonGenerator.PRETTY_PRINTING, true);

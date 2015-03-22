@@ -51,8 +51,8 @@ public class JaxbParser implements CommonParser {
 	private JAXBContext context = JAXBContext.newInstance(HotelValuedAvailRS.class);
 	private XMLInputFactory factory = XMLInputFactory.newInstance();
 	
-	Map<String,Boolean> jsonConfig = new HashMap<String,Boolean>();
-	JsonGeneratorFactory jsonFactory;
+	private Map<String,Boolean> jsonConfig = new HashMap<String,Boolean>();
+	private JsonGeneratorFactory jsonFactory;
 
 	public JaxbParser() throws Exception {
 		factory.setProperty(XMLInputFactory.IS_NAMESPACE_AWARE, false);
