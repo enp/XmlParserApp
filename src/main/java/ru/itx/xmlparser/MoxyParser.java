@@ -13,6 +13,7 @@ import javax.xml.stream.XMLStreamReader;
 import org.eclipse.persistence.jaxb.JAXBContextFactory;
 import org.eclipse.persistence.oxm.annotations.XmlPath;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -25,7 +26,7 @@ public class MoxyParser implements CommonParser {
 	
 	private static class Hotel {
 		@XmlPath(value="HotelInfo/Name/text()") @XmlElement(name="Name") @JsonProperty("Name") public String name;
-		@XmlPath(value="Currency/@code") public transient String currency;
+		@XmlPath(value="Currency/@code") public @JsonIgnore String currency;
 		@XmlElement(name="AvailableRoom") @JsonProperty("Rooms") public List<Room> rooms;
 	}
 	
