@@ -7,6 +7,7 @@ mainClassName = 'ru.itx.xmlparser.XmlParserApp'
 
 jar {
 	from { configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) } }
+	exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA' // for eclipselink signed jars
 	manifest {
         attributes 'Main-Class': mainClassName
     }
@@ -19,5 +20,7 @@ repositories {
 dependencies {
 	compile 'org.glassfish:javax.json:1.+'
 	compile 'org.codehaus.groovy:groovy-all:2.+'
-	compile 'org.apache.ws.commons.axiom:axiom-impl:1.+'	
+	compile 'org.apache.ws.commons.axiom:axiom-impl:1.+'
+	compile 'org.eclipse.persistence:org.eclipse.persistence.moxy:2.+'
+	compile 'com.fasterxml.jackson.core:jackson-databind:2.+'	
 }

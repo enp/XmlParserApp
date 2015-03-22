@@ -17,34 +17,34 @@ import javax.xml.stream.XMLStreamReader;
 
 public class JaxbParser implements CommonParser {
 	
-	public static class HotelValuedAvailRS {
+	private static class HotelValuedAvailRS {
 		public List<ServiceHotel> ServiceHotel;
 	}
 	
-	public static class ServiceHotel {
+	private static class ServiceHotel {
 		public Currency Currency;
         public HotelInfo HotelInfo;
         public List<AvailableRoom> AvailableRoom;
 	}
 	
-	public static class Currency {
+	private static class Currency {
 		@XmlAttribute public String code;
 	}
 	
-	public static class HotelInfo {
+	private static class HotelInfo {
 	    public String Name;
 	}
 	
-	public static class AvailableRoom {
+	private static class AvailableRoom {
 		public HotelRoom HotelRoom;
 	}
 
-	public static class HotelRoom {
+	private static class HotelRoom {
 		public String RoomType;
 		public Price Price;
 	}
 	
-	public static class Price {
+	private static class Price {
 		public String Amount;
 	}
 
