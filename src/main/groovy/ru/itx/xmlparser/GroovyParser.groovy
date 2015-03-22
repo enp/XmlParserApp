@@ -22,7 +22,9 @@ class GroovyParser implements CommonParser {
 			hotels << hotel
 		}
 		
-		output.newWriter().write(JsonOutput.prettyPrint(JsonOutput.toJson([Hotels:hotels])))
+		output.withWriter {
+			it.write(JsonOutput.prettyPrint(JsonOutput.toJson([Hotels:hotels])))
+		}
 	}
 
 }
