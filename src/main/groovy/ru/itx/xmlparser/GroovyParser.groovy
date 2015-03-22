@@ -8,7 +8,7 @@ import java.io.OutputStream;
 class GroovyParser implements CommonParser {
 
 	@Override
-	public void parse(InputStream input, OutputStream out) throws Exception {
+	public void parse(InputStream input, OutputStream output) throws Exception {
 		
 		def reader = new XmlSlurper().parse(input)
 		def hotels = []
@@ -22,7 +22,7 @@ class GroovyParser implements CommonParser {
 			hotels << hotel
 		}
 		
-		out.newWriter().write(JsonOutput.prettyPrint(JsonOutput.toJson([Hotels:hotels])))
+		output.newWriter().write(JsonOutput.prettyPrint(JsonOutput.toJson([Hotels:hotels])))
 	}
 
 }

@@ -61,13 +61,13 @@ public class JaxbParser implements CommonParser {
 	}
 
 	@Override
-	public void parse(InputStream input, OutputStream out) throws Exception {
+	public void parse(InputStream input, OutputStream output) throws Exception {
 		
 		Unmarshaller unmarshaller = context.createUnmarshaller();
 		XMLStreamReader reader = factory.createXMLStreamReader(input);
 		HotelValuedAvailRS hotels = unmarshaller.unmarshal(reader, HotelValuedAvailRS.class).getValue();		
 		
-		JsonGenerator json = jsonFactory.createGenerator(out).writeStartObject().writeStartArray("Hotels");		
+		JsonGenerator json = jsonFactory.createGenerator(output).writeStartObject().writeStartArray("Hotels");		
 		for (ServiceHotel hotel : hotels.ServiceHotel) {
 			json.writeStartObject().write("Name", hotel.HotelInfo.Name).writeStartArray("Rooms");
 			for (AvailableRoom room : hotel.AvailableRoom) {

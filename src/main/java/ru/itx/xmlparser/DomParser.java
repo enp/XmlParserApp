@@ -37,12 +37,12 @@ public class DomParser implements CommonParser {
 	}
 
 	@Override
-	public void parse(InputStream input, OutputStream out) throws Exception {
+	public void parse(InputStream input, OutputStream output) throws Exception {
 		
 		DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 		Document root = builder.parse(input);		
 		
-		JsonGenerator json = jsonFactory.createGenerator(out).writeStartObject().writeStartArray("Hotels");
+		JsonGenerator json = jsonFactory.createGenerator(output).writeStartObject().writeStartArray("Hotels");
 		
 		NodeList hotels = root.getElementsByTagName("ServiceHotel");
 		for (int i = 0; i < hotels.getLength(); i++) {
